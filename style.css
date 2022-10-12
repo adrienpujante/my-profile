@@ -1,0 +1,155 @@
+.container {
+	width: 700px
+	margin: 0px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 450px;
+  }
+}
+
+#img-circle {
+	border-radius: 50%;
+	width: 400px;
+	border: 10px solid black;
+	box-shadow: 10px 10px 10px yellow;
+}
+
+@media (max-width: 960px) {
+  #img-circle {
+  border-radius: 50%;
+	width: 400px;
+	border: 10px solid black;
+	box-shadow: 10px 10px 10px yellow;
+  }
+}
+@media (max-width: 720px) {
+  #img-circle {
+  border-radius: 50%;
+	width: 200px;
+	border: 10px solid black;
+	box-shadow: 5px 5px 5px yellow;
+  }
+}
+@media (max-width: 540px) {
+  #img-circle {
+  border-radius: 50%;
+	width: 100px;
+	border: 10px solid black;
+	box-shadow: 3px 3px 3px yellow;
+  }
+}
+
+body {
+background-color: rgb(255, 255, 255);
+color: rgb(255, 255, 255);
+font-family: 'Merriweather', serif;
+}
+
+h1 {
+color: #EFF612;
+font-family: Arial, serif;
+font-size: 50px;
+letter-spacing: 5px;
+}
+
+h2 {
+color: #EFF612;
+font-family: Arial, serif;
+font-size: 40px;
+}
+
+h3 {
+	color: #38B6FF;
+	font-family: Arial, serif;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+color: red;
+text-decoration: none;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+#Coordonnées a {
+	color: white;
+  	text-decoration: none;
+  	transition: color 0.3s ease;
+}
+
+#Coordonnées a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+#Coordonnées p {
+	margin-bottom: 30px;
+}
+
+.logo-circle {
+border-radius: 50%;
+	width: 200px;
+}
+
+.card-black {
+	background: rgb(30, 30, 30);
+	padding: 20px;                        
+	border-radius: 4px;  
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	margin: 80px;
+}
+
+.card-black h2 {
+	text-align: center;
+}
+
+#text-center {
+	text-align: center;
+}
+
+.list-inline {
+	text-align: center;
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #38B6FF;
+}
+
+.list-inline i:hover {
+	color: #F9BF18;
+}
+
+#space-formation h4 {
+	margin-bottom: 50px;
+}
+
+#space-experiences ul {
+	margin-bottom: 60px;
+}
